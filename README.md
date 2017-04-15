@@ -32,7 +32,7 @@ See also comments in [Overture.v](MLTT2/Overture.v) for some details.
 
 Another drawback of the private inductive type is that it breaks some tactics, and especially `destruct`.
 To solve this problem, we defined a tactic `destruct_path` which revert all hypothesis depending on
-the equality considered, apply paths_ind, and the reintroduce the reverted hypothesis.
+the equality considered, apply paths_ind, and then reintroduce the reverted hypothesis.
 
 ## Coq dpd-graph ##
 
@@ -46,7 +46,7 @@ Common to [MLTT2](MLTT2) and [MLTT2F](MLTT2F):
 
 * `Overture.v` contains basic definitions and notations (sigma types, ...) and the definition of a strict equality
 
-* `Strict_eq.v` contains some facts about strict equality (transport, equalities of pairs, ...)
+* `Strict_eq.v` contains some facts about strict equality (transport, equality of pairs, ...)
 
 * `Category.v` contains the definition of categories and model structures
 
