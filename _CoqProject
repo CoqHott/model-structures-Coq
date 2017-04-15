@@ -1,0 +1,26 @@
+-R . ModelStructure
+-I src
+
+
+src/myrewrite.ml
+src/myrewrite.mllib
+src/myrewrite2.ml
+src/myrewrite2.mllib
+
+MyTacs.v
+Overture.v
+Strict_eq.v
+Category.v
+
+MLTT2/Overture.v
+MLTT2/Path_eq.v
+MLTT2/Equivalences.v
+MLTT2/Cylinder.v
+MLTT2/Model_structure.v
+
+MLTT2F/Overture.v
+MLTT2F/Path_eq.v
+MLTT2F/Equivalences.v
+MLTT2F/Cylinder.v
+MLTT2F/Fibrant_replacement.v
+MLTT2F/Model_structure.v
